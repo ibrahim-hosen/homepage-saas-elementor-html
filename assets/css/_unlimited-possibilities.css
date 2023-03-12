@@ -1,0 +1,180 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.testimonial{
+    position: relative;
+    padding-top: 25px;
+}
+.unlimited-possibilities-section{
+	padding-top: 243px;
+    padding-bottom: 101px;
+    overflow-x:clip;
+}
+.unlimited-possibilities-area{
+	max-width: 550px;
+	background: #fff;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 10px;
+    padding: 23px 33px;
+    margin-top: 55px;
+    padding-bottom: 18px;
+    transition: 0.6s;
+	box-shadow: 0 0.25rem 0.5rem rgb(0 0 0 / 5%),
+		        0 1.5rem 2.2rem rgb(0 0 0 / 10%);
+}
+.unlimited-possibilities-area:hover{
+   box-shadow: 0 2.25rem 1.5rem rgb(0 0 0 / 5%),
+			   0 0.5rem 2.2rem rgb(0 0 0 / 11%)
+}
+.unlimited-possibilities-image img{
+	max-width: 70px;
+	height: 70px;
+    border: 1px solid #dddddd63;
+    border-radius: 50%;
+}
+.unlimited-possibilities-text p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #ababad;
+    padding-top: 15px;
+    line-height: 23px;
+}
+.unlimited-possibilities-icon>ul {
+    margin: 0 auto;
+    width: 130px;
+    background: #FFF6E8;
+    border-radius: 7px;
+    padding-left: 0;
+}
+.unlimited-possibilities-icon>ul>li {
+    padding: 3px 2px;
+    display: inline-flex;
+}
+.unlimited-possibilities-icon>ul>li>a>i {
+    color: #FFAB1A;
+    font-size: 13px;
+}
+.unlimited-possibilities-icon>ul>li>a span.active-star i{
+	color: #ddd;
+}
+.unlimited-text h2 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #000;
+    padding-top: 9px;
+}
+.unlimited-text p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ababad;
+}
+
+
+
+.swiper-slide {
+    opacity: 0.3;
+}
+.swiper-slide.swiper-slide-active {
+    opacity: 1;
+}
+.swiper-button-next,
+.swiper-button-prev{
+    display: none;
+}
+/*===============Left============*/
+.swiper-slide.unlimited-possibilities-area.swiper-slide-prev .unlimited-possibilities-image img {
+    margin-left: 154px;
+}
+.swiper-slide.unlimited-possibilities-area.swiper-slide-duplicate.swiper-slide-prev .unlimited-possibilities-text p {
+    margin-left: 50px;
+}
+.swiper-slide.unlimited-possibilities-area.swiper-slide-prev .unlimited-possibilities-icon {
+    margin-left: 145px;
+}
+.swiper-slide.unlimited-possibilities-area.swiper-slide-duplicate.swiper-slide-prev {
+    padding-right: 28px;
+}
+/*.swiper-slide.unlimited-possibilities-area.swiper-slide-prev {
+    margin-top: 100px;
+}
+*/.swiper-slide.unlimited-possibilities-area.swiper-slide-prev .unlimited-text {
+    margin-left: 125px;
+}
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: -59px;
+}
+/*===============Left============*/
+/*===============Right===========*/
+.swiper-slide.unlimited-possibilities-area.swiper-slide-next .unlimited-possibilities-image img{
+    margin-right: 154px;
+}
+.swiper-slide.unlimited-possibilities-area.swiper-slide-next .unlimited-text {
+    margin-right: 133px;
+}
+.swiper-slide.unlimited-possibilities-area.swiper-slide-next .unlimited-possibilities-text {
+    margin-right: 100px;
+}
+.swiper-slide.unlimited-possibilities-area.swiper-slide-next .unlimited-possibilities-icon {
+    margin-right: 150px;
+}
+/*.swiper-slide.unlimited-possibilities-area.swiper-slide-next {
+    margin-top: 100px;
+}*/
+/*===============Right===========*/
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #919599;
+    width: 19px;
+    border-radius: 5px;
+}
+.swiper-slide.unlimited-possibilities-area.swiper-slide-active {
+    margin-top: 26px;
+}
+
+
+
+
+
+.swiper-slide.swiper-slide-active .unlimited-possibilities-text p{
+    font-size: 18px;
+    padding-top: 34px;
+}
+.swiper-slide.swiper-slide-active .unlimited-text h2{
+    font-size: 19px;    
+    padding-top: 17px;
+}
+.swiper-slide.swiper-slide-active .unlimited-possibilities-icon>ul>li>a>i{
+    font-size: 16px;
+}
+.swiper-slide.swiper-slide-active .unlimited-possibilities-icon>ul>li{
+    padding: 7px 2px;}
+.swiper-slide.swiper-slide-active .unlimited-possibilities-icon>ul{
+    width: 152px;
+}
+.swiper-slide.swiper-slide-active .unlimited-text  p{
+    font-size: 17px;
+}
+.swiper-slide.swiper-slide-active.unlimited-possibilities-area{
+    padding: 25px 35px;
+}
+
+
+/*==========================Responcib=========================*/
+@media(max-width: 1070px){
+.unlimited-possibilities-section {
+    padding-top: 62px;
+}
+.unlimited-possibilities-area{
+    max-width: 511PX;
+}
+.swiper-slide.unlimited-possibilities-area.swiper-slide-active {
+    margin-left: -16px;
+}
+.swiper-slide.unlimited-possibilities-area.swiper-slide-active {
+    margin-right: -16px;
+}
+.swiper-slide.unlimited-possibilities-area.swiper-slide-active {
+    margin-right: 43px !important;
+}
+}

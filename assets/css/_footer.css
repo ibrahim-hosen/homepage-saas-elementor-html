@@ -1,0 +1,63 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.footer-menu-section{
+	background: #343A40;
+	padding: 33px 0px;
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+    border-color: rgba(255, 255, 255, 0.04);
+}
+.footer-menu a .footer-txt {
+    color: #ADB5BD;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Rubik';
+    transition: 0.5s;
+}
+.footer-menu:hover .footer-txt{
+	transition: 0.5s;
+	padding-left: 15px;
+}
+.footer-menu a i{
+	color: #ADB5BD;
+	padding-right: 5px;
+}
+.footer-menu-icon {
+    float: right;
+}
+.footer-menu-icon i{
+    color: #ced4da;
+    font-size: 22px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.footer-menu-icon i:hover{
+	color: #A2AEB9;
+	transition: 0.5s;
+}
+
+/*===========================Footer=======================*/
+footer{
+	background:#343A40;
+	padding: 26px 0px;
+}
+.footer-text h2{
+	font-size: 20px;
+    text-align: center;
+    color: #A8B0B8;
+    font-family: inherit;
+    font-weight: 400;
+}
+/*========================Responcib=======================*/
+@media(max-width: 991px){
+.footer-menu-icon i {
+    font-size: 20px;
+    margin-left: 14px;
+}
+.footer-menu-icon {
+    float: initial;
+}
+}
